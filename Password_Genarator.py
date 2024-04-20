@@ -1,7 +1,7 @@
 # Import the string module for constants such as string.ascii_letters, string.digits, and other symbols
-#These constants represent sets of characters that include ASCII letters, digits, and various symbols
+# These constants represent sets of characters that include ASCII letters, digits, and various symbols
 import string
-#Import the random module to shuffle the letters,digits and special charecters 
+# Import the random module to shuffle the letters,digits and special charecters 
 import random
 # Create a list of characters including letters, digits, and special symbols
 # string.ascii_letters provides all ASCII letters (both lowercase and uppercase)
