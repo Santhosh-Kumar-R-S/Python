@@ -55,7 +55,7 @@ time_in_minutes = round(total_time / 60, 2)                            # Calcula
 # Calculate grade based on the number of correct answers
 if right == TOTAL_PROBLEMS:
     grade = "Awesome! You got the maximum score of " + str(TOTAL_PROBLEMS) + " out of " + str(TOTAL_PROBLEMS) + "!"
-elif right >= TOTAL_PROBLEMS * 0.8 grade = "Great! You got " + str(right) + " out of " + str(TOTAL_PROBLEMS) + "!"
+elif right >= TOTAL_PROBLEMS * 0.8: grade = "Great! You got " + str(right) + " out of " + str(TOTAL_PROBLEMS) + "!"
 elif right >= TOTAL_PROBLEMS * 0.6:
     grade = "Good! You got " + str(right) + " out of " + str(TOTAL_PROBLEMS) + "!"
 else:
